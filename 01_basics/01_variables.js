@@ -1,7 +1,7 @@
 const accountId = 144553 //value assigned cannot be changed
 let accountEmail = "Ashish312@gmail.com"
 var accountPass = "123456"
-accountCity = "Ranchi" //not preferred but can be used
+accountCity = "Ranchi" //not preferred but can be used will give reference error in strict mode and will make this a global variable in nonstrict mode
 let accountState; //this variable is has value undefined
 /*
 Prefer not to use var because of issue in block 
